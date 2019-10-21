@@ -15,9 +15,12 @@ class Scraper
     #   course.title = post.css("h2").text
     #   course.schedule = post.css(".date").text
     #   course.description = post.css("p").text
-    end
+    #end
   end
   
+  def get_courses
+    
+  end 
   def print_courses
     self.make_courses
     Course.all.each do |course|
