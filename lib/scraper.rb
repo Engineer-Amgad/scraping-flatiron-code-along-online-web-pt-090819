@@ -32,4 +32,5 @@ class Scraper
 end
 
 Scraper.new.get_page
+Scraper.print_courses
 
